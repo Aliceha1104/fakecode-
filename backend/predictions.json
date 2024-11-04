@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "house_data": {
+            "cbd_distance": 0.0,
+            "bedroom": 1,
+            "bathroom": 1,
+            "car_garage": 0,
+            "landsize": 320.0,
+            "building_area": 0.0,
+            "built_year": 2024,
+            "suburb_name": "Other",
+            "prop_type": "u"
+        },
+        "predicted_price": 1056896.76
+    },
+    {
+        "id": 2,
+        "house_data": {
+            "cbd_distance": 1.0,
+            "bedroom": 12,
+            "bathroom": 12,
+            "car_garage": 12,
+            "landsize": 1234.0,
+            "building_area": 1234.0,
+            "built_year": 1800,
+            "suburb_name": "Caulfield North",
+            "prop_type": "u"
+        },
+        "predicted_price": 1247949.9
+    },
+    {
+        "id": 3,
+        "house_data": {
+            "cbd_distance": 123.0,
+            "bedroom": 123,
+            "bathroom": 123,
+            "car_garage": 123,
+            "landsize": 123.0,
+            "building_area": 123.0,
+            "built_year": 1800,
+            "suburb_name": "Essendon",
+            "prop_type": "t"
+        },
+        "predicted_price": 890790.74
+    },
+    {
+        "id": 4,
+        "house_data": {
+            "cbd_distance": 123.0,
+            "bedroom": 123,
+            "bathroom": 123,
+            "car_garage": 123,
+            "landsize": 123.0,
+            "building_area": 123.0,
+            "built_year": 1800,
+            "suburb_name": "Hampton East",
+            "prop_type": "t"
+        },
+        "predicted_price": 893348.85
+    },
+    {
+        "id": 5,
+        "house_data": {
+            "cbd_distance": 2.0,
+            "bedroom": 1,
+            "bathroom": 2,
+            "car_garage": 3,
+            "landsize": 6.0,
+            "building_area": 7.0,
+            "built_year": 2022,
+            "suburb_name": "Oak Park",
+            "prop_type": "h"
+        },
+        "predicted_price": 1380587.52
+    },
+    {
+        "id": 6,
+        "house_data": {
+            "cbd_distance": 1.0,
+            "bedroom": 3,
+            "bathroom": 2,
+            "car_garage": 1,
+            "landsize": 423.0,
+            "building_area": 123.0,
+            "built_year": 2013,
+            "suburb_name": "Hawthorn",
+            "prop_type": "t"
+        },
+        "predicted_price": 1708312.39
+    }
+]

@@ -1,0 +1,31 @@
+.introduction-content{
+    border-bottom: 2px dashed black;
+}
+.errors-msg {
+    font-size: 12px;
+}
+.analyze {
+    font-size: 20px;
+}
+
+.sub-analyze{
+    font-size: 30px;
+}
+@media (max-width: 991.98px) { /* Target tablet screens */
+    .input-group-text {
+        font-size: 14px;
+    }
+
+    .description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) { /* target phone screen */
+    .input-group-text {
+        font-size: 10px;
+    }
+    .description {
+        font-size: 12px;
+    }
+}

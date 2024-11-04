@@ -1,0 +1,42 @@
+
+
+.arrow-icon {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    animation: sway 1.2s ease-in-out infinite; /* Smooth transition for the movement */
+}
+
+@keyframes sway {
+    0% {
+    transform: translateX(0); /* Start position */
+    }
+    50% {
+    transform: translateX(10px); /* Move slightly to the right */
+    }
+    100% {
+    transform: translateX(0); /* Return to original position */
+    }
+}
+
+.chart-image {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.5s ease-in-out;
+  }
+
+.chart-image.blur-slide {
+    transform: translateX(-100px);
+    filter: blur(5px);
+}
+
+.arrow-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #333;
+}
+
+

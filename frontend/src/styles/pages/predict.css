@@ -1,0 +1,29 @@
+.form-bg{
+    background-color: #ff5a3c;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    outline: none;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    background-color: #ff5a3c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.errors-msg{
+    font-size: 12px;
+}
+
+@media (max-width: 991.98px) { /* Target tablet screens */
+    .form-control::placeholder, option, .form-select{
+        font-size: 12px;
+    }
+
+    .form-label{
+        font-size: 14px;
+    }
+}

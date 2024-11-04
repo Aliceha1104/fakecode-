@@ -1,0 +1,34 @@
+.login-content {
+    position: relative;
+    background-image: url(../../assets/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.login-content .d-flex {
+    position: relative;
+    z-index: 2;
+}
+
+.form-control:focus {
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.btn-color {
+    background-color: #ff5a3c;
+    width: 50%;
+}

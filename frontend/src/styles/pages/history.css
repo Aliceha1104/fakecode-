@@ -1,0 +1,24 @@
+.pagination .page-link{
+    box-shadow: none;
+    outline: none;
+}
+@media (max-width: 991.98px) { /* Target tablet screens */
+    th {
+        font-size: 15px;
+    }
+    tr, td{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 768px) { /* target phone screen */
+    th {
+        font-size: 14px;
+    }
+    tr, td{
+        font-size: 14px;
+    }
+}
+
+

@@ -1,0 +1,44 @@
+.signup-box {
+    position: relative;
+    background-image: url(../../assets/login_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+.signup-box .d-flex {
+    position: relative;
+    z-index: 2;
+}
+
+.form-control:focus {
+    border: 1px solid black;
+    box-shadow: none;
+}
+.signup-link{
+    text-decoration: underline;
+}
+.signup-link:hover {
+    text-decoration: none;
+}
+
+.btn-color {
+    background-color: #ff5a3c;
+}
+
+.btn-color:hover{
+    border: 1px solid black;
+    background-color: #ff5a3c;
+}

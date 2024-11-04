@@ -1,0 +1,41 @@
+footer {
+    background-color: #ff5a3c;
+    padding: 0;
+}
+
+.text{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.sub-text{
+    color: #606060;
+}
+
+.fab:hover {
+    opacity: 50%;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #ff5a3c;
+}
+
+@media (max-width: 991.98px) { /* Target tablet screens */
+    .text{
+        font-size: 16px;
+    }
+    .sub-text span{
+        font-size: 14px;
+    }
+
+    .copyright, .contact{
+        font-size: 14px;
+    }
+
+}

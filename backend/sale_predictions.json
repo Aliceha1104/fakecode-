@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "predicted_result": 58.32,
+        "predicted_status": "Average",
+        "price": 10000.0,
+        "median_price": 100000.0,
+        "median_rental": 200
+    },
+    {
+        "id": 2,
+        "predicted_result": 64.69,
+        "predicted_status": "Average",
+        "price": 100000.0,
+        "median_price": 100000.0,
+        "median_rental": 111
+    }
+]
